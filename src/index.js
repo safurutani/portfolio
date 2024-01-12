@@ -6,10 +6,10 @@ import Layout from './pages/Layout';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 export default function App() {
     return(
-        <BrowserRouter>       
+        <HashRouter>       
             <Routes>         
                           
                 <Route index element={<Home />} />  
@@ -19,7 +19,7 @@ export default function App() {
                 <Route path="About" element={<About />} />         
                 </Route>       
             </Routes>     
-        </BrowserRouter>   
+        </HashRouter>   
     ); 
 }
 
