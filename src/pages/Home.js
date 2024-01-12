@@ -20,15 +20,15 @@ import Carousel from '../Components/Carousel';
         secondLink: "",
         thirdLlink: "",
         projectThumbnails: {
-          tswiftRanker: './portfolio/images/album ranker.png',
-          quoteGenerator: './portfolio/images/quote generator.png',
-          calculator: './portfolio/images/calculator.png',
-          resinEstimator: './portfolio/images/resin estimator.png',
-          lyricApp: './portfolio/images/lyric app.jpg',
-          drumMachine: './portfolio/images/drum machine.png',
-          timer: './portfolio/images/session break timer.png',
-          zigZag: './portfolio/images/skelly zig zag.png',
-          fruitSlicer: './portfolio/images/fruit slicer.jpg'
+          tswiftRanker: './images/album ranker.png',
+          quoteGenerator: './images/quote generator.png',
+          calculator: './images/calculator.png',
+          resinEstimator: './images/resin estimator.png',
+          lyricApp: './images/lyric app.jpg',
+          drumMachine: './images/drum machine.png',
+          timer: './images/session break timer.png',
+          zigZag: './images/skelly zig zag.png',
+          fruitSlicer: './images/fruit slicer.jpg'
         },
         projectLinks: {
           tswiftRanker: "https://safurutani.github.io/tswift-album-ranker/",
