@@ -91,7 +91,11 @@
   }
   .text-block {
     width: 75%;
+    max-width: 600px;
     margin: auto;
+  }
+  .about-text {
+    text-align: justify;
   }
   .image-container {
     display: flex;

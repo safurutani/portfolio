@@ -9,7 +9,7 @@ import '../About.css'
         <div>
           <h1 id="page-title">About Me</h1>
           <div class="text-block">
-            <p>Hi there! I am a former pre-veterinarian student who has found their passion for coding. While I graduated with a Bachelor's in Animal Science from Cal Poly San Luis Obispo, I decided to switch career paths to one that is more stimulating for me. The kind of logical thinking and problem solving within the field of computer science better suits my way of thinking. There's nothing quite like having an idea and being able to actualize it yourself. I enjoy tapping into my creative side for my projects. <br /> <br />I want to learn it all, and freeCodeCamp was the first step in my journey that has helped me acquire such knowledge. So far I have completed the following freeCodeCamp certifications (whilst having a blast):
+            <p class="about-text">Hi there! I am a former pre-veterinarian student who has found their passion for coding. While I graduated with a Bachelor's in Animal Science from Cal Poly San Luis Obispo, I decided to switch career paths to one that is more stimulating for me. The kind of logical thinking and problem solving within the field of computer science better suits my way of thinking. There's nothing quite like having an idea and being able to actualize it yourself. I enjoy tapping into my creative side for my projects. <br /> <br />I want to learn it all, and freeCodeCamp was the first step in my journey that has helped me acquire such knowledge. So far I have completed the following freeCodeCamp certifications (whilst having a blast):
               <ul class="certs">
                 <li>Responsive Web Design</li>
                 <li>JavaScript Algorithms and Data Structures</li>
