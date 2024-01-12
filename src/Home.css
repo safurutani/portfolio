@@ -1,0 +1,202 @@
+:root {
+    --blue: #147EB9;
+    --green: #008E80;
+    --yellow: #EEE8A9;
+    --navy: #002757;
+  }
+  @font-face {
+    font-family: 'rubik';
+    src: local('rubik'), url(Rubik-Regular.ttf) format('opentype');
+  }
+  h1 {
+    vertical-align: middle;
+    color: var(--navy);
+    font-size: 48px;
+  }
+  html {
+    background: #E6F4F1;
+    font-family: "rubik";
+    width: 100%;
+    color: var(--navy);
+  }
+  body {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 480px;
+  }
+  
+  .outer-border {
+    border-top: solid 18px var(--blue);
+  }
+  .inner-border {
+    border-top: solid 10px var(--green);
+  }
+  #inside-top {
+    margin-top: 8px;
+  }
+  #inside-bottom {
+    margin-bottom: 8px;
+  }
+  #name {
+    margin-top: 10%;
+  }
+  h2 {
+    vertical-align: middle;
+    color: var(--navy);
+    font-size: 40px;
+  }
+  #titles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--green);
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  nav {
+    padding: 8px 6px;
+    width: 100%;
+    background: var(--yellow);
+    z-index: 1;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: none;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.5rem;
+  }
+  #carousel {
+    margin: auto;
+    display: flex;
+    height: 280px;
+    width: 1170px; 
+    justify-content: space-evenly;
+  }
+  button {
+    background: #E6F4F1;
+    border: none;
+    height: 76px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+  }
+  button:hover, #prev-button:hover, #next-button:hover {
+    cursor: pointer;
+  }
+  .thumbnail, #project-card {
+    object-fit: contain;
+    margin: auto 2px;
+  }
+  #thumbnail-viewer {
+    display:flex;
+    margin:auto;
+    padding: 100px 0px;
+  }
+  #cards {
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+  }
+  #first-card, #second-card, #third-card {
+    margin: auto;
+  }
+ 
+  #prev-button {
+    height: 200px;
+    padding: 30px 6px;
+  }
+  .arrow {
+    scale: .5;
+  }
+  #next-button {
+    padding: 30px 6px;
+    height: 200px;
+  }
+  .left-arrow {
+    transform: rotate(180deg);
+  }
+  .divider {
+    background: var(--green);
+    height:100%;
+    color: #E6F4F1;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    padding-top: 4px;
+  }
+  .logo {
+    margin: auto 8px;
+    height: 70px;
+  }
+  .kotlin-logo {
+    height: 110px;
+  }
+  .codepen-logo1, .vs-logo {
+    height: 150px;
+  }
+  .bottom-row {
+    margin-top: -16px;
+    padding: 0;
+  }
+  @media (max-width: 1150px) {
+    #third-card {
+      display:none;
+    }
+    #tagline {
+      font-size:28px;
+    }
+    #thumbnail-viewer, #carousel {
+      width: 780px;
+      margin:auto;
+      display:flex;
+      justify-content: space-evenly;
+    }
+    .thumbnail {
+      max-width: 280px;
+      max-height: 280px;
+      width:auto;
+      height:auto;
+    }
+  }
+  @media (max-width: 780px) {
+    #thumbnail-viewer, #carousel{
+      width: 480px;
+      margin: auto;
+    }
+    .thumbnail, #cards{
+      max-width: 340px;
+      margin:auto;
+    }
+    #third-card {
+      display:none;
+    }
+    #second-card {
+      display:none;
+    }
+    .image-container {
+      height: auto;
+      flex-wrap: wrap;
+    }
+    #tagline {
+      font-size:28px;
+    }
+    #titles {
+      display: block;
+      text-align: center;
+    }
+  }
