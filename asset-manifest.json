@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1449b2c3.css",
-    "main.js": "/portfolio/static/js/main.05dfd3f3.js",
+    "main.js": "/portfolio/static/js/main.334aaae5.js",
     "static/media/Rubik-Regular.ttf": "/portfolio/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
     "index.html": "/portfolio/index.html",
     "main.1449b2c3.css.map": "/portfolio/static/css/main.1449b2c3.css.map",
-    "main.05dfd3f3.js.map": "/portfolio/static/js/main.05dfd3f3.js.map"
+    "main.334aaae5.js.map": "/portfolio/static/js/main.334aaae5.js.map"
   },
   "entrypoints": [
     "static/css/main.1449b2c3.css",
-    "static/js/main.05dfd3f3.js"
+    "static/js/main.334aaae5.js"
   ]
 }
