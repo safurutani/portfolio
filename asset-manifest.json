@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.048cd5fb.css",
+    "main.js": "/static/js/main.2f4a539a.js",
+    "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
+    "index.html": "/index.html",
+    "main.048cd5fb.css.map": "/static/css/main.048cd5fb.css.map",
+    "main.2f4a539a.js.map": "/static/js/main.2f4a539a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.048cd5fb.css",
+    "static/js/main.2f4a539a.js"
+  ]
+}
