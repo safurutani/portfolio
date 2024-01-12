@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 import { HashRouter, Routes, Route } from "react-router-dom";
 export default function App() {
     return(
-        <HashRouter>       
+        <HashRouter base="/">       
             <Routes>         
                           
                 <Route index element={<Home />} />  
