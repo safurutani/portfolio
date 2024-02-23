@@ -5,7 +5,7 @@ const websites = [
   { id: 0, category: 'Websites', name: 'Taylor Swift Album Ranker', imageUrl: './images/album ranker.png', projectUrl: "https://safurutani.github.io/tswift-album-ranker/"},
   { id: 1, category: 'Websites', name: 'Spongebob Quote Generator', imageUrl: './images/quote generator.png', projectUrl: "https://codepen.io/safurutani/full/eYPzjZL" },
   { id: 2, category: 'Websites', name: 'Javascript Calculator', imageUrl: './images/calculator.png', projectUrl: "https://codepen.io/safurutani/full/MWPMrKp" },
-  { id: 3, category: 'Websites', name: 'Genshin Impact Resin Estimator', imageUrl: './images/resin estimator.png', projectUrl: "https://safurutani.github.io/resin-estimator/" },
+  { id: 3, category: 'Websites', name: 'Genshin Impact Resin Estimator', imageUrl: './images/resin estimator.png', projectUrl: "https://safurutani.github.io/react-resin-estimator/" },
   { id: 5, category: 'Websites', name: 'Drum Machine', imageUrl: './images/drum machine.png', projectUrl: "https://codepen.io/safurutani/full/NWOwKvR" },
   { id: 6, category: 'Websites', name: 'Session/Break Timer', imageUrl: './images/session break timer.png', projectUrl: "https://codepen.io/safurutani/full/qBQWNYq" },
   { id: 9, category: 'Websites', name: 'Pokemon Lookup Proxy', imageUrl: './images/pokemon lookup.png', projectUrl: "https://codepen.io/safurutani/full/zYbZZaZ" }

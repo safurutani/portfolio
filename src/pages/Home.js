@@ -35,7 +35,7 @@ import Carousel from '../Components/Carousel';
           tswiftRanker: "https://safurutani.github.io/tswift-album-ranker/",
           quoteGenerator: "https://codepen.io/safurutani/full/eYPzjZL",
           calculator: "https://codepen.io/safurutani/full/MWPMrKp",
-          resinEstimator: "https://safurutani.github.io/resin-estimator/",
+          resinEstimator: "https://safurutani.github.io/react-resin-estimator/",
           lyricApp: "https://github.com/safurutani/Favorite-Lyrics-App",
           drumMachine: "https://codepen.io/safurutani/full/NWOwKvR",
           timer: "https://codepen.io/safurutani/full/qBQWNYq",
