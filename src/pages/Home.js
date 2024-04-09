@@ -29,7 +29,8 @@ import Carousel from '../Components/Carousel';
           timer: './images/session break timer.png',
           zigZag: './images/skelly zig zag.png',
           fruitSlicer: './images/fruit slicer.jpg',
-          pokemonLookup: './images/pokemon lookup.png'
+          pokemonLookup: './images/pokemon lookup.png',
+          wordsmith: './images/gamescreen.jpg'
         },
         projectLinks: {
           tswiftRanker: "https://safurutani.github.io/tswift-album-ranker/",
@@ -41,7 +42,8 @@ import Carousel from '../Components/Carousel';
           timer: "https://codepen.io/safurutani/full/qBQWNYq",
           zigZag: "https://safurutani.github.io/zig-zag-game/",
           fruitSlicer: "https://safurutani.github.io/fruit-slicer/",
-          pokemonLookup: "https://codepen.io/safurutani/full/zYbZZaZ"
+          pokemonLookup: "https://codepen.io/safurutani/full/zYbZZaZ",
+          wordsmith: "https://github.com/safurutani/wordsmith",
         }
       };
     }
